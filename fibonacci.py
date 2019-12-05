@@ -2,7 +2,6 @@
 import sys
 
 def getNthFib(n):
-    # Write your code here.
     if n == 2:
         return 1
     elif n == 1:
