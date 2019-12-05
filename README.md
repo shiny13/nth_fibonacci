@@ -17,6 +17,11 @@ A python program that returns the nth number in a fibonacci sequence
 3.  Enter one number, large or small and press Enter. 
     Then for windows Press Control-Z or for Mac/Linux press Control-d and enter.
     Then you should see the result printed in a new line.
+    The code uses:
+    ```
+    sys.stdin.read()
+    ```
+    Therefore, it will take whatever input you give and convert that to an integer, so it will throw an error if strings, spaces, or anything other than a single int is used for input.
   
 ## Algorithm of the program:
 The time complexity is O(n)
